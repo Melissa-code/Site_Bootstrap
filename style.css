@@ -27,6 +27,7 @@ h1 {
     font-weight: 700;
 }
 
+
 /* nav */ 
 
 .navbar-brand {
@@ -41,10 +42,19 @@ h1 {
     font-weight: 700;
 }
 
+
 /* à propos */ 
 
 #aPropos {
     margin-top: 75px;
     padding-bottom: 75px;
     border-bottom: 1px dashed #2f2d2d;
+}
+
+
+/* 3 icones */ 
+
+.icones {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
