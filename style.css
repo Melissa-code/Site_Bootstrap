@@ -58,3 +58,15 @@ h1 {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+
+/* premiere banniere */ 
+
+#ban1 {
+    position: relative;
+    background: url(img/banniere1.png);
+    background-position: right; /*focus sur partie droite de l'img*/ 
+    background-attachment: fixed; /*effet */
+    background-repeat: no-repeat;
+    text-align: center;
+}
