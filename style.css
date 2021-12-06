@@ -214,9 +214,20 @@ h1 {
     color: white;
 }
 
+
 /* Pregress section */ 
+
 #progress {
     border-top : 1px dashed black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* section clients */ 
+
+#clients {
+    border-top: 1px dashed black;
     border-bottom: 1px solid black;
     padding-top: 50px;
     padding-bottom: 50px;
