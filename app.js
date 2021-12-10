@@ -12,3 +12,15 @@ $('.carousel').carousel({
     interval: 2500,
     pause: 'null'
 })
+
+
+// Navbar animation 
+
+$(window).scroll(function() {
+    // si on scroll de plus de 30px, alors la navbar diminue (elle prend la classe opaque)
+    if($(this).scrollTop() > 30) {
+        $('.navbar').addClass('opaque');
+    } else {
+        $('navbar').removeClass ('opaque');
+    }
+})
